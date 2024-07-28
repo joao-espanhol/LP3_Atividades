@@ -2,7 +2,9 @@ package Exercicio_24;
 // Escrever um programa que grava um array de strings em um arquivo, 
 //com cada string em uma nova linha.
 
-import java.io.*;
+import java.io.BufferedWriter;
+import java.io.FileWriter;
+import java.io.IOException;
 import java.util.Scanner;
 
 
