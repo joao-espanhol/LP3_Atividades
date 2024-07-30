@@ -27,7 +27,8 @@ public class Main
 		}
 
 		System.out.println("Lista inserida: " + numbers);
-        Collections.sort(numbers);
-        System.out.println("Lista organizada: " + numbers);
+        	Collections.sort(numbers);
+        	System.out.println("Lista organizada: " + numbers);
+		reader.close();
 	}
 }
