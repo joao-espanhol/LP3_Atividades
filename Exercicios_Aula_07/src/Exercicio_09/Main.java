@@ -9,12 +9,12 @@ import java.io.InputStreamReader;
 
 public class Main {
 	 public static void main(String[] args) {
-		 BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
+	     BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
 	     List<Integer> integers = new ArrayList<>();
 	     try {
 	    	 System.out.print("Aperte enter para encerrar.");
 	    	 while (true) {
-	    		 System.out.print("Digite um número para a lista: ");
+	    		 System.out.print("Digite um nÃºmero para a lista: ");
 	    		 String phrase = reader.readLine();
 	    		 if(phrase == "\\p" || phrase == null || phrase.isEmpty()) {
 	    			 break;
@@ -44,5 +44,6 @@ public class Main {
 	     catch(IOException e) {
 	         e.printStackTrace();
 	     }
+	     reader.close();
 	 }
 }
