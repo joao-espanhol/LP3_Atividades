@@ -43,5 +43,7 @@ public class Main
 	    int media = soma/numbers.size();
 	    
 	    System.out.println("A media dos elementos inseridos na lista é: " + media);
+		
+	    reader.close();
 	}
 }
