@@ -34,5 +34,7 @@ public class Main {
 		else {
 			System.out.println("A letra digitada não foi encontrada na frase.");
 		}
+
+		scan.close();
 	}	
 }
