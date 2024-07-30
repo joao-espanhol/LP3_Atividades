@@ -22,11 +22,13 @@ public class Main
 			hipo = tria.getFace3();
 			
 			System.out.printf("O valor da hipotenusa é: %.2f", hipo);
+			
 		}
 		catch (IOException e) {
 			e.printStackTrace();
 		}
-				
+			
+	        reader.close();	
 		
 	}
 }
