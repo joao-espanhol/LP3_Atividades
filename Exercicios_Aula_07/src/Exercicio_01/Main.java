@@ -24,6 +24,7 @@ public class Main {
 		else {
 			System.out.print("\n Não é palindromo");
 		}
+		scan.close();
 	}
 	
 	
