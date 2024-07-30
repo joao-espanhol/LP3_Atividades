@@ -12,10 +12,10 @@ public class Main
 		BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
 		List<String> products = new ArrayList();
         
-        products.add("Celular");
-        products.add("Placa mãe");
-        products.add("HDD");
-    
+	        products.add("Celular");
+	        products.add("Placa mãe");
+	        products.add("HDD");
+	    
 		System.out.print("Produtos da loja: " + products);
 		System.out.println("Digite: \n\"add\" para adicionar");
 		System.out.println("\"rem\" para remover");
@@ -73,5 +73,6 @@ public class Main
 			e.printStackTrace();
 		}
         System.out.println("Programa encerrado.");
+	reader.close();
 	}
 }
