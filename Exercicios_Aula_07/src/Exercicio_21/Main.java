@@ -65,5 +65,6 @@ public class Main {
         catch (IOException e) {
             System.out.println("Erro ao ler a entrada: " + e.getMessage());
         }
+        reader.close();
     }
 }
